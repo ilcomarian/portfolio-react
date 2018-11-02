@@ -7,11 +7,11 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header title="Title" scroll>
+          <Header className="nav-color" title="Title" scroll>
             <Navigation>
               <a href="/">Home</a>
               <a href="/aboutme">About Me</a>
-              <a href="/contact">contact</a>
+              <a href="/contact">Contact</a>
               <a href="/projects">Projects</a>
               <a href="/resume">Resume</a>
             </Navigation>
