@@ -116,13 +116,24 @@
 .contact-body h2 {
   font-family: Anton;
 }
-.resume {
-}
+
+/* .resume {
+  width: 100%;
+  background: #000;
+} */
+
 .resume-grid {
-  background: gray;
-  text-align: center;
+  /* background: gray; */
+  /* text-align: center; */
 }
 .resume-grid img {
   width: 50%;
-  margin-bottom: 20%;
+  /* margin-bottom: 20%; */
+}
+
+.resume-txt {
+  background: #27221f;
+  color: white;
+  /* height: 500px; */
+  padding: 2em;
 }
