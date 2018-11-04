@@ -1,28 +1,35 @@
 .nav-color {
-  background: #2bc0e4; /* fallback for old browsers */
+  background: #1d2b64; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #eaecc6,
-    #2bc0e4
+    to left,
+    #f8cdda,
+    #1d2b64
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #eaecc6,
-    #2bc0e4
+    to left,
+    #f8cdda,
+    #1d2b64
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .landing-grid {
-  background: #085078; /* fallback for old browsers */
+  background: #1d2b64; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #85d8ce,
-    #085078
+    to left,
+    #f8cdda,
+    #1d2b64
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #85d8ce,
-    #085078
+    to left,
+    #f8cdda,
+    #1d2b64
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .banner-text {
@@ -31,12 +38,70 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
+}
+.banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: aliceblue;
 }
-/* .banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p {
   color: aliceblue;
-} */
+  font-size: 20px;
+  padding: 1em;
+}
+.social-links {
+  /* display: flex;
+  justify-content: space-between; */
+  text-align: center;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.project-grid {
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: "400px";
+  height: "400px";
+  margin: "auto";
+}
+
+.card url {
+  bottomright: 15%, no-repeat;
+  background: #46b6ac;
+}
+.contact-body {
+  margin: auto;
+  background: gray;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  width: 80%;
+  height: 80%;
+  background: #dbd3d6;
+  margin-bottom: 20px;
+  border: 2px solid rebeccapurple;
+}
+.contact-grid img {
+  width: 50%;
+}
