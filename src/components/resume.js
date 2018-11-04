@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
+import Skills from "./skills";
 class Resume extends Component {
   state = {};
   render() {
@@ -31,6 +32,10 @@ class Resume extends Component {
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
+            <Skills skills="JavaScrips" progress={80} />
+            <Skills skills="Html/Css" progress={85} />
+            <Skills skills="React" progress={75} />
+            <Skills skills="Ruby on Rails" progress={85} />
           </Cell>
         </Grid>
       </div>
